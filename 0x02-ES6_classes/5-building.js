@@ -1,4 +1,4 @@
-export default class Building {
+class Building {
   constructor(sqft) {
     this._sqft = typeof sqft === 'number' ? sqft : 0;
   }
@@ -12,3 +12,4 @@ export default class Building {
   }
 }
 
+export default Building;
